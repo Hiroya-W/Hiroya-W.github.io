@@ -94,19 +94,21 @@ li {
 
 #header .logo-name {
     display: block;
-    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Amatic SC', cursive;*/
+    font-family: 'Tomorrow', cursive;
     font-size: 32px;
     line-height: 1;
     text-align: center;
-    color: #757575;
+    color: #5a5a5a;
     margin-bottom: 5px;
 }
 
 #header .logo-title {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 88px;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Candal', sans-serif;
+    font-size: 110px;
     font-weight: normal;
-    color: #f39ac7;
+    color: #755942;
     line-height: 1;
     letter-spacing: 0.1em;
 }
@@ -127,7 +129,7 @@ li {
 
 #gnav {
     padding: 10px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Maiden Orange', serif;
 
     z-index: 100;
 }
@@ -149,8 +151,8 @@ li {
 
 #gnav li a {
     font-weight: bold;
-    font-size: 16px;
-    color: #333;
+    font-size: 32px;
+    color: #4b3728;
     letter-spacing: 0.1em;
     text-transform: lowercase;
 }
@@ -181,14 +183,14 @@ li {
 }
 
 .section .section-title {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Maiden Orange', serif;
     text-transform: lowercase;
     letter-spacing: 0.2em;
     display: inline-block;
-    font-size: 36px;
+    font-size: 50px;
     line-height: 1;
     margin-bottom: 10px;
-    color: #f39ac7;
+    color: #425875;
 }
 
 .section .section-desc {
@@ -213,10 +215,18 @@ li {
     width: 33%;
 }
 
+.two-column-image-profile {
+    width: 33%;
+}
 .two-column-image img {
     margin: 0 auto;
 }
 
+.two-column-image-profile img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #7ba8eb;
+}
 .two-column-desc {
     width: 62%;
 }
