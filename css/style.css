@@ -85,7 +85,7 @@ li {
     -ms-align-items: center;
     align-items: center;
     height: 550px;
-    background: url(../img/background/background1.jpg) center / cover;
+    background: url(../img/background/background.jpg) center / cover;
 }
 
 #header .logo {
@@ -451,7 +451,8 @@ li {
 }
 
 #footer .footer-link ul {
-    font-family: 'Cormorant Garamond', serif;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Maiden Orange', serif;
     letter-spacing: 0.1em;
     text-transform: lowercase;
     margin-bottom: 30px;
@@ -466,7 +467,7 @@ li {
 }
 
 #footer .footer-link li {
-    font-size: 12px;
+    font-size: 28px;
     padding: 0 20px;
 }
 
@@ -476,7 +477,7 @@ li {
 }
 
 #footer .copyright {
-    font-size: 10px;
+    font-size: 16px;
     color: #8c8c8c;
     text-align: center;
 }
