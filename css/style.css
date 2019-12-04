@@ -419,6 +419,21 @@ li {
 }
 
 /*--------------------------------
+ experience
+ --------------------------------*/
+table th {
+    text-align: left;
+}
+
+.table-text-bold {
+    font-weight: bold;
+}
+
+table td {
+    padding-left: 30px;
+}
+
+/*--------------------------------
  contact
 ---------------------------------*/
 
