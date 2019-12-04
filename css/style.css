@@ -348,6 +348,26 @@ li {
     margin-bottom: 3px;
 }
 
+#skill .skill-desc-title-block {
+    text-align: center;
+}
+#skill .skill-desc-title1 {
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+#skill .list-inline-item {
+    display: inline-block;
+}
+
+#skill .text1 {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 8px;
+}
+
 #skill .rate {
     font-size: 16px;
     position: relative;
@@ -477,7 +497,7 @@ li {
 }
 
 #footer .copyright {
-    font-size: 16px;
+    font-size: 12px;
     color: #8c8c8c;
     text-align: center;
 }
